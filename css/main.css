@@ -10,7 +10,7 @@ background-color: fff;
 body:after{
   content: "";
  background: url(sea.jpg);
- background-size:100%;
+ background-size:110%;
  /*background-repeat: no-repeat;*/
  opacity: 0.8;
  top: 0;
@@ -119,3 +119,8 @@ input[type="submit"]:hover {
 
        background: #5DB2FF;
   }*/
+
+.footer{
+  margin-top: 13%;
+  margin-left: 43%;
+}
