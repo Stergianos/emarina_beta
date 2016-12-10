@@ -2,14 +2,27 @@
     display: block;
     height: 600px;
     width:100%;
+    margin-top:-1.8%;
 }
 
-input[type="submit"]{
+#searchButton{
+  border:1px;
   border-radius:0px;
-
+  background-color: rgba(93, 98, 255, 0.87);
+  height:34px;
+  margin-left:-4px;
 }
+#searchButton:hover {
+  border:1px;
+  border-radius:0px;
+  background-color: #fff;
+  height:34px;
+}
+
+
 
 input[type="text"]{
+  border:0px;
   border-radius:0px;
 
 }
