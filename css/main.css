@@ -1,0 +1,121 @@
+body{
+/*background-image: url('port.jpg');*/
+background-repeat: no-repeat;
+
+
+font-family:'Open Sans', sans-serif;
+background-color: fff;
+}
+
+body:after{
+  content: "";
+ background: url(sea.jpg);
+ background-size:100%;
+ /*background-repeat: no-repeat;*/
+ opacity: 0.8;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ position: absolute;
+ z-index: -1;
+}
+
+
+.form{
+padding-top:5%;
+
+
+}
+.label{
+  color:rgba(93, 98, 255, 0.87);
+  font-size:15px;
+}
+
+input[type="text"]{
+  /*background-color: rgba(93, 98, 255, 0.87);*/
+  background-color:inherit !important;
+  border:1px solid rgba(93, 98, 255, 0.87) ;
+  border-radius:0px;
+  color: #000;
+  margin-left: 265%;
+}
+
+input[type="submit"]{
+  border: 1px solid rgba(93, 98, 255, 0.87);
+  border-radius:0px;
+  margin-top: 2%;
+  margin-left: 0.7%;
+  background-color: inherit;
+  color: rgba(93, 98, 255, 0.87);
+  width: 112px;
+  font-weight:bold;
+  margin-left:24.8%;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid rgba(93, 98, 255, 0.87);
+  border-radius:0px;
+  margin-top: 2%;
+  margin-left: 0.7%;
+  background-color:  rgba(93, 98, 255, 0.87);
+  color: #5DB2FF;
+  width: 112px;
+  font-style:bold;
+  margin-left:24.8%;
+ }
+
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(93, 98, 255, 0.87) !important;
+}
+
+.logo-img{
+  margin-left:15%;
+  /* opacity:1; */
+  margin-top: -22px !important;
+}
+
+.logo-img-main{
+  margin-left:36%;
+
+}
+
+.topMenu{
+  /*background-color:  rgba(93, 98, 255, 0.87);*/
+  background-color: inherit;
+  border:none;
+  border-radius:0px;
+
+  color:#000 !important;
+}
+
+
+.mainText{
+  margin-top:20px;
+  font-size:35px !important;
+  text-align:center;
+  color:rgba(93, 98, 255, 0.87);
+  color:#000;
+}
+
+.extra{
+  color:#fff !important;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+/*.navbar-default .navbar-nav > .active{
+
+   background: #5DB2FF;
+ }
+
+
+ .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+
+       background: #5DB2FF;
+  }*/

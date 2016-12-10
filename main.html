@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <title>E-Marina</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Marina Information">
+    <meta name="keywords" content="Marina, Port, dock, boat, ship">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://use.fontawesome.com/619659e878.js"></script>
+</head>
+<body >
+<script>
+function res(){
+  var x = document.getElementById('location').value;
+  if(x != "Poros" ){
+    alert('Not Supported Yet');
+  }else{
+    window.location="map.html";
+
+  }
+}
+</script>
+  <div class="header">
+<!--<img src="img/logo.png" class="img-responsive logo-img" width="200px" >-->
+<nav class="navbar navbar-default topMenu">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="img/logotrangrey.png" class="img-responsive logo-img" width="90px" ></a>
+    </div>
+    <ul class="nav navbar-nav extra">
+      <li ><a href="#">Contact</a></li>
+      <li ><a href="#">About us</a></li>
+
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 mainText">
+        <img src="img/logotran.png" class="img-responsive logo-img-main" width="300px" >
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+        <div class="col-md-8 form">
+
+          <ul class="list-inline">
+                       <li class="col-xs-2">
+
+                           <input type="text" class="form-control" id="location" placeholder="Enter port">
+                       </li>
+                       <li class="col-xs-2">
+
+                        <!--   <input type="text" class="form-control" id="chkin" placeholder="Enter in-date">
+                       </li>
+                       <li class="col-xs-2">
+
+                           <input type="text" class="form-control" id="chkout" placeholder="Enter out-date">
+                       </li>
+                       <li class="col-xs-2">
+
+                           <input type="text" class="form-control" id="length" placeholder="Enter length">
+                       </li>
+                       <li class="col-xs-2">
+
+                           <input type="text" class="form-control" id="beam" placeholder="Enter beam">
+                       </li>
+                       <li class="col-xs-2">
+
+                           <input type="text" class="form-control" id="draft" placeholder="Enter draft">
+                       </li>-->
+
+
+
+                   </ul></br>
+                   <input type="submit" class="btn btn-default" value='Search' onclick="res()">
+
+                 </input>
+
+
+
+
+
+
+        </div>
+    <div class="col-md-2"></div>
+
+
+
+
+  </div>
+
+
+
+</body>
