@@ -19,7 +19,9 @@
   height:34px;
 }
 
-
+.navEdit{
+  border-radius:0px;
+}
 
 input[type="text"]{
   border:0px;
