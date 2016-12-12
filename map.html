@@ -107,20 +107,19 @@
 <script>
 var locations = [
     ['Public Restroom', 37.50067, 23.45363, 'img/markers/wc.png'],
-    ['Church', 37.50043, 23.4534, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Garbage Bin 1', 37.50051, 23.45232, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Water Supply', 37.50073, 23.45279, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Water Supply', 37.50035, 23.45189, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Berthing Assistance', 37.50022, 23.45139, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Public shower', 37.50013, 23.45184, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Hospital', 37.49997, 23.45206, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Garbage Bin 2', 37.49951, 23.45124, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Cronos SuperMarket', 37.49954, 23.45158, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Pharmacy', 37.49927, 23.4517, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Electricity', 37.49909, 23.45128, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Electricity', 37.49881, 23.45167, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Kiosk', 37.49865, 23.45225, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png'],
-    ['Costguard Office', 37.49843, 23.45279, 'C:\Users\Nindian\Documents\emarina\startbootstrap-agency-1.0.6\img\pin-icons\church.png']
+    ['Church', 37.50043, 23.4534, 'img/markers/church.png'],
+    ['Garbage Bin 1', 37.50051, 23.45232, 'img/markers/bin.png'],
+    ['Water Supply', 37.50073, 23.45279, 'img/markers/water.png'],
+    ['Water Supply', 37.50035, 23.45189, 'img/markers/water.png'],
+    ['Public shower', 37.50013, 23.45184, 'img/markers/shower.png'],
+    ['Hospital', 37.49997, 23.45206, 'img/markers/hospital.png'],
+    ['Garbage Bin 2', 37.49951, 23.45124, 'img/markers/bin.png'],
+    ['Cronos SuperMarket', 37.49954, 23.45158, 'img/markers/super.png'],
+    ['Pharmacy', 37.49927, 23.4517, 'img/markers/pharmacy.png'],
+    ['Electricity', 37.49909, 23.45128, 'img/markers/electricity.png'],
+    ['Electricity', 37.49881, 23.45167, 'img/markers/electricity.png'],
+    ['Kiosk', 37.49865, 23.45225, 'img/markers/kiosk.png'],
+    ['Costguard Office', 37.49843, 23.45279, 'img/markers/coast.png']
 ];
 
      function initMap() {
@@ -138,7 +137,7 @@ var i;
  for (i = 0; i < locations.length; i++) {
    marker = new google.maps.Marker({
      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-  //     icon: locations[i][3],
+       icon: locations[i][3],
      map: map
 
    });
