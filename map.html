@@ -122,12 +122,27 @@ var locations = [
     ['Costguard Office', 37.49843, 23.45279, 'img/markers/coast.png']
 ];
 
+var myStyles =[
+{
+ featureType: "poi",
+ elementType: "labels",
+ stylers: [
+       { visibility: "off" }
+ ]
+}
+];
+
      function initMap() {
        var uluru = {lat: 37.500249, lng: 23.455073};
        var map = new google.maps.Map(document.getElementById('map'), {
          zoom: 18,
+         styles: myStyles,
          center: uluru
        });
+
+
+
+
   var myLatlng = new google.maps.LatLng(37.49843, 23.45279);
 
   var infowindow = new google.maps.InfoWindow();
