@@ -50,7 +50,7 @@ input[type="submit"]{
   color: #5DB2FF;
   width: 112px;
   font-weight:bold;
-  margin-left:43%;
+  margin-left:9%;
   letter-spacing: 1px;
   height:40px;
 }
@@ -64,7 +64,7 @@ input[type="submit"]:hover {
   color: #5DB2FF;
   width: 112px;
   font-style:bold;
-  margin-left:43%;
+  margin-left:9%;
   letter-spacing: 1px;
  }
 
@@ -101,7 +101,8 @@ input[type="submit"]:hover {
   color:white;
   letter-spacing: 5px;
   text-transform: uppercase;
-
+  font-family:"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  margin-left:-20%;
 }
 
 .extra{
