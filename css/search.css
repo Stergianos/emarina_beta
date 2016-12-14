@@ -1,17 +1,17 @@
 body{
 /*background-image: url('port.jpg');*/
 background-repeat: no-repeat;
-
+background: url(marin.jpg);
+background-size:100%;
+background-repeat: no-repeat;
 
 font-family:'Open Sans', sans-serif;
 background-color: fff;
 }
 
-body:after{
+/*body:after{
   content: "";
- background: url(marin.jpg);
- background-size:100%;
- background-repeat: no-repeat;
+
  opacity: 1;
  top: 0;
  left: 0;
@@ -19,7 +19,7 @@ body:after{
  right: 0;
  position: absolute;
  z-index: -1;
-}
+}*/
 
 
 .form{
@@ -139,15 +139,17 @@ input[type="submit"]:hover {
   body{
   /*background-image: url('port.jpg');*/
   background-repeat: no-repeat;
-
+  background: url(marin.jpg);
+  /*background-size:100%;*/
+  background-repeat: no-repeat;
 
   font-family:'Open Sans', sans-serif;
-  background-color: fff;
+
   }
 
-  body:after{
+  /*body:after{
     content: "";
-   background: url(marin.jpg);
+
    background-size:100%;
    background-repeat: no-repeat;
    opacity: 1;
@@ -157,7 +159,9 @@ input[type="submit"]:hover {
    right: 0;
    position: absolute;
    z-index: -1;
-  }
+  }*/
+
+
 
 
   .logo-img-main{
@@ -167,40 +171,42 @@ input[type="submit"]:hover {
   }
 
   input[type="text"]{
-    /*background-color: rgba(93, 98, 255, 0.87);*/
-    background-color:inherit !important;
-    border:1px solid rgba(93, 98, 255, 0.87) ;
-    border-radius:0px;
-    color: #000;
-    margin-left: 265%;
-  }
+     /*background-color: rgba(93, 98, 255, 0.87);*/
+     background-color:inherit !important;
+     border:1px solid rgba(93, 98, 255, 0.87);
+     border-radius:0px;
+     color: #000;
+     margin-left: 110%;
 
-  input[type="submit"]{
-    border: 1px solid rgba(93, 98, 255, 0.87);
-    border-radius:0px;
-    margin-top: 2%;
-    margin-left: 0.7%;
-    background-color: rgba(93, 98, 255, 0.87);
-    color: #5DB2FF;
-    width: 112px;
-    font-weight:bold;
-    margin-left:9%;
-    letter-spacing: 1px;
-    height:40px;
-  }
-
-  input[type="submit"]:hover {
-    border: 1px solid rgba(93, 98, 255, 0.87);
-    border-radius:0px;
-    margin-top: 2%;
-    margin-left: 0.7%;
-    background-color:  white;
-    color: #5DB2FF;
-    width: 112px;
-    font-style:bold;
-    margin-left:9%;
-    letter-spacing: 1px;
    }
+
+   input[type="submit"]{
+     border: 1px solid rgba(93, 98, 255, 0.87);
+     border-radius:0px;
+     margin-top: 20%!important;
+     margin-left: 0.7%;
+     background-color: rgba(93, 98, 255, 0.87);
+     color: #5DB2FF;
+     width: 112px;
+     font-weight:bold;
+     margin-left:-140%;
+     letter-spacing: 1px;
+     height:40px;
+     /* margin-bottom: -5%; */
+   }
+
+   input[type="submit"]:hover {
+     border: 1px solid rgba(93, 98, 255, 0.87);
+     border-radius:0px;
+     margin-top: 20%;
+     margin-left: 0.7%;
+     background-color:  white;
+     color: #5DB2FF;
+     width: 112px;
+     font-style:bold;
+     margin-left:-140%;
+     letter-spacing: 1px;
+    }
 
    .footer{
      margin-top: 3%;
