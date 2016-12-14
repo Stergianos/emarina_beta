@@ -1,6 +1,6 @@
 body{
 /*background-image: url('port.jpg');*/
-background-repeat: no-repeat;
+
 background: url(marin.jpg);
 background-size:100%;
 background-repeat: no-repeat;
@@ -137,7 +137,7 @@ input[type="submit"]:hover {
 /*425px start */
 @media (max-width:425px) {
   body{
-  /*background-image: url('port.jpg');*/
+  
   background-repeat: no-repeat;
   background: url(marin.jpg);
   /*background-size:100%;*/
