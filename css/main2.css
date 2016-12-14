@@ -1,13 +1,15 @@
 body{
 /*background-image: url('port.jpg');*/
 background-repeat: no-repeat;
-
+background: url(marin.jpg);
+background-size:100%;
+background-repeat: no-repeat;
 
 font-family:'Open Sans', sans-serif;
 background-color: fff;
 }
 
-body:after{
+/*body:after{
   content: "";
  background: url(marin.jpg);
  background-size:100%;
@@ -19,7 +21,7 @@ body:after{
  right: 0;
  position: absolute;
  z-index: -1;
-}
+}*/
 
 
 .form{
@@ -139,15 +141,17 @@ input[type="submit"]:hover {
   body{
   /*background-image: url('port.jpg');*/
   background-repeat: no-repeat;
-
+  background: url(marin.jpg);
+  /*background-size:100%;*/
+  background-repeat: no-repeat;
 
   font-family:'Open Sans', sans-serif;
-  background-color: fff;
+
   }
 
-  body:after{
+  /*body:after{
     content: "";
-   background: url(marin.jpg);
+
    background-size:100%;
    background-repeat: no-repeat;
    opacity: 1;
@@ -157,7 +161,7 @@ input[type="submit"]:hover {
    right: 0;
    position: absolute;
    z-index: -1;
-  }
+  }*/
 
 
   .logo-img-main{
@@ -184,7 +188,7 @@ input[type="submit"]:hover {
     color: #5DB2FF;
     width: 112px;
     font-weight:bold;
-    margin-left:9%;
+    margin-left:-140%;
     letter-spacing: 1px;
     height:40px;
   }
@@ -198,7 +202,7 @@ input[type="submit"]:hover {
     color: #5DB2FF;
     width: 112px;
     font-style:bold;
-    margin-left:9%;
+    margin-left:-140%;
     letter-spacing: 1px;
    }
 
